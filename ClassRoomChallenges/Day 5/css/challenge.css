@@ -1,0 +1,13 @@
+.challenge {
+    margin: 50px
+}
+
+.donation-header {
+    font-family: var(--font-one);
+    text-align: center;
+}
+
+.donation-text {
+    text-align: center;
+}
+
