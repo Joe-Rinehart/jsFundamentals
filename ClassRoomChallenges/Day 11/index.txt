@@ -1,0 +1,58 @@
+function myGrades(name, grade) {
+    console.log(`${name} got a ${grade} in social studies`)
+}
+
+myGrades("Name", "grade")
+
+
+
+
+for(let i = 300; i <= 400; i++ ) {
+    if(i % 6 === 0 && i % 8 === 0) {
+        console.log("Marco Lopez");
+    } else if (i % 6 === 0) {
+        console.log("Marco");
+    } else if (i % 8 === 0){
+        console.log("Lopez");
+    } else {
+        console.log(i);
+    }
+}
+
+
+
+function findPerimeter(length, width) {
+    let perimeter;
+    if (length * 2 + width * 2 > 20) {
+        perimeter = length * 2 + width * 2
+        return `True the perimeter is ${perimeter}`;
+    } else if (length * 2 + width * 2 < 20) {
+        perimeter = length * 2 + width * 20;
+        return `False: the perimeter is ${solution}`
+    } else {
+        return `The perimeter is equal to 20`
+    }
+}
+
+console.log(findPerimeter(7,6));
+
+
+
+
+let libray = {
+    name: "Public library",
+    address: "my address",
+    sections: {
+        collections: [{
+                classification: "string",
+                count: 1,
+                aisle: "string
+            },{    
+               classification: "strang",
+                 count: 2,
+                aisle: "strang
+                
+            }
+        ]
+    }
+}
